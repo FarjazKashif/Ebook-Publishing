@@ -60,7 +60,7 @@ export const LeadFormSection = ({ urgencyText, heading, paragraph, points, chann
   };
 
   return (
-    <section className="mid-form" id="mid-form">
+    <section className="mid-form" id="lead-form">
       <div className="mid-form__bg" aria-hidden="true"></div>
       <div className="container mid-form__inner">
 
