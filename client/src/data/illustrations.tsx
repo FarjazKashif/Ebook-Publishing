@@ -1,5 +1,5 @@
 // src/data/illustrations.ts
-import type { IIncludedFeature, IProcessStep, IPricingPackage, IFAQ, ITestimonial, IGenre } from '../types';
+import type { IIncludedFeature, IProcessStep, IPricingPackage, IFAQ, IGenre } from '../types';
 
 export const illustrationTypesData = [
   { tag: "Spot Illustration", title: "Chapter headers & decorative motifs", visual: 'spot' },
