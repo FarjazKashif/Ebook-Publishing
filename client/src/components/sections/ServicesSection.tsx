@@ -12,7 +12,7 @@ export const ServicesSection = () => {
           <p className="eyebrow">What We Offer</p>
           <h2 className="section-title">Our Book Publishing Services</h2>
           <p className="section-sub">Have a manuscript and wondering how to publish a book? We make it simple. Our all-in-one self-publishing services help authors like you publish professionally — whether it's your first book or your tenth.</p>
-        </div> 
+        </div>
 
         <div className="service-grid" ref={gridRef}>
           {servicesData.map((service, idx) => (
@@ -24,7 +24,23 @@ export const ServicesSection = () => {
               <p className="service-card__kicker">{service.kicker}</p>
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
-              <Link to={`service.href`} className="service-card__link">Learn more <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></Link>
+              <Link to={service.href} className="service-card__link">
+                Learn more
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M5 12h14M13 6l6 6-6 6"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </Link>
             </article>
           ))}
         </div>

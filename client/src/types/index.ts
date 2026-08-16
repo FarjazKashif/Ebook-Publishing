@@ -5,7 +5,7 @@ export interface IService {
   title: string;
   desc: string;
   featured?: boolean;
-  href?: string
+  href: string
   icon: ReactNode;
 }
 
