@@ -28,7 +28,7 @@ export const EditingProcessSection = () => {
           ))}
         </div>
         <div style={{textAlign:'center',marginTop:'50px',position:'relative',zIndex:1}}>
-          <a href="#mid-form" className="btn btn--accent btn--lg">Start Your Editing Project</a>
+          <a href="#lead-form" className="btn btn--accent btn--lg">Start Your Editing Project</a>
         </div>
       </div>
     </section>

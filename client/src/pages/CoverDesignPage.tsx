@@ -72,7 +72,7 @@ export const CoverDesignPage = () => {
 
         <PricingSection
           data={coverPricingData}
-          note="All packages include genre competitor analysis & thumbnail testing. <a href='#mid-form' style='color:var(--burgundy);font-weight:700;'>Request a free brief call →</a>"
+          note="All packages include genre competitor analysis & thumbnail testing. <a href='#lead-form' style='color:var(--burgundy);font-weight:700;'>Request a free brief call →</a>"
         />
 
         <LeadFormSection

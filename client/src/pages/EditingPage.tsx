@@ -116,7 +116,7 @@ export const EditingPage = () => {
 
         <ProcessSection data={editingProcessData} variant="timeline" ctaText="Start Your Editing Project" />
 
-        <PricingSection data={pricingPackagesData} note="All packages include a free sample edit on your first 1,000 words. <a href='#mid-form' style='color:var(--burgundy);font-weight:700;'>Request yours →</a>" />
+        <PricingSection data={pricingPackagesData} note="All packages include a free sample edit on your first 1,000 words. <a href='#lead-form' style='color:var(--burgundy);font-weight:700;'>Request yours →</a>" />
 
         <LeadFormSection
           urgencyText="Limited spots this month — 30% off"

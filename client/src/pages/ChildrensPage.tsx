@@ -70,7 +70,7 @@ export const ChildrensPage = () => {
 
         <PricingSection
           data={childrensPricingData}
-          note="All packages include character design approval before full illustration begins. <a href='#mid-form' style='color:var(--burgundy);font-weight:700'>Request a free consultation →</a>"
+          note="All packages include character design approval before full illustration begins. <a href='#lead-form' style='color:var(--burgundy);font-weight:700'>Request a free consultation →</a>"
         />
 
         <LeadFormSection

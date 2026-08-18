@@ -35,6 +35,7 @@ export const Header = () => {
                           <div className="nav-dropdown__panel">
                             <Link to="/services/editing-proofreading">Editing &amp; Proofreading</Link>
                             <Link to="/services/book-cover-design">Book Cover Design</Link>
+                            <Link to="/services/book-marketing">Book Marketing</Link>
                             <Link to="/services/illustrations">Illustrations</Link>
                             <Link to="/services/book-formatting">Book Formatting</Link>
                             <Link to="/services/childrens-book-publishing">Children's Book Publishing</Link>
@@ -79,6 +80,7 @@ export const Header = () => {
                   <div className="flex flex-col gap-1 py-2 pl-4 border-b border-[var(--line-dark)]">
                     <Link to="/services/editing-proofreading" onClick={() => { setIsMenuOpen(false); setIsMobileServicesOpen(false); }} className="text-[0.95rem] text-[var(--cream-text-soft)] hover:text-[var(--gold-light)] py-2">Editing & Proofreading</Link>
                     <Link to="/services/book-cover-design" onClick={() => { setIsMenuOpen(false); setIsMobileServicesOpen(false); }} className="text-[0.95rem] text-[var(--cream-text-soft)] hover:text-[var(--gold-light)] py-2">Book Cover Design</Link>
+                    <Link to="/services/book-marketing" onClick={() => { setIsMenuOpen(false); setIsMobileServicesOpen(false); }} className="text-[0.95rem] text-[var(--cream-text-soft)] hover:text-[var(--gold-light)] py-2">Book Marketing</Link>
                     <Link to="/services/illustrations" onClick={() => { setIsMenuOpen(false); setIsMobileServicesOpen(false); }} className="text-[0.95rem] text-[var(--cream-text-soft)] hover:text-[var(--gold-light)] py-2">Illustrations</Link>
                     <Link to="/services/book-formatting" onClick={() => { setIsMenuOpen(false); setIsMobileServicesOpen(false); }} className="text-[0.95rem] text-[var(--cream-text-soft)] hover:text-[var(--gold-light)] py-2">Book Formatting</Link>
                     <Link to="/services/childrens-book-publishing" onClick={() => { setIsMenuOpen(false); setIsMobileServicesOpen(false); }} className="text-[0.95rem] text-[var(--cream-text-soft)] hover:text-[var(--gold-light)] py-2">Children's Book Publishing</Link>

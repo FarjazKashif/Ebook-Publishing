@@ -7,6 +7,7 @@ import { ChildrensPage } from './pages/ChildrensPage';
 import { FormattingPage } from './pages/FormattingPage';
 import { IllustrationsPage } from './pages/IllustrationsPage';
 import "./styles/infusion-publishing-cleaned.css";
+import { MarketingPage } from './pages/MarketingPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/services/childrens-book-publishing" element={<ChildrensPage />} />
           <Route path="/services/book-formatting" element={<FormattingPage />} />
           <Route path="/services/illustrations" element={<IllustrationsPage />} />
+          <Route path="/services/book-marketing" element={<MarketingPage />} />
         </Routes>
       </div>
     </BrowserRouter>

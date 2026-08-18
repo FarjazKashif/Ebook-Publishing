@@ -71,7 +71,7 @@ export const IllustrationsPage = () => {
         <PricingSection
           data={illustrationPricingData}
           columns={4}
-          note="Bundle multiple illustrations for a project discount. <a href='#mid-form' style='color:var(--burgundy);font-weight:700'>Request a custom quote →</a>"
+          note="Bundle multiple illustrations for a project discount. <a href='#lead-form' style='color:var(--burgundy);font-weight:700'>Request a custom quote →</a>"
         />
 
         <LeadFormSection

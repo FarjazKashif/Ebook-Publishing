@@ -38,6 +38,7 @@ export const Footer = () => {
           <h4>Services</h4>
           <Link to="/services/editing-proofreading">Editing & Proofreading</Link>
           <Link to="/services/book-cover-design">Book Cover Design</Link>
+          <Link to="/services/book-marketing">Book Marketing</Link>
           <Link to="/services/illustrations">Illustrations</Link>
           <Link to="/services/book-formatting">Book Formatting</Link>
           <Link to="/services/childrens-book-publishing">Children's Book Publishing</Link>

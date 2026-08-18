@@ -70,7 +70,7 @@ export const FormattingPage = () => {
 
         <PricingSection
           data={formattingPricingData}
-          note="All packages include a free 10-page sample formatting on request. <a href='#mid-form' style='color:var(--burgundy);font-weight:700'>Request yours →</a>"
+          note="All packages include a free 10-page sample formatting on request. <a href='#lead-form' style='color:var(--burgundy);font-weight:700'>Request yours →</a>"
         />
 
         <LeadFormSection
