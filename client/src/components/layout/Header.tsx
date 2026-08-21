@@ -16,13 +16,7 @@ export const Header = () => {
             <header className={`site-header ${isScrolled ? 'scrolled' : ''}`} id="siteHeader">
                 <div className="container header__inner">
                     <Link to="/" className="brand" aria-label="Infusion Publishing — Home">
-                        <span className="brand__mark">
-                            <svg viewBox="0 0 40 40" width="36" height="36" aria-hidden="true">
-                                <path d="M8 6 L8 34 L20 30 L32 34 L32 6 L20 10 Z" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
-                                <line x1="20" y1="10" x2="20" y2="30" stroke="currentColor" strokeWidth="1.5" />
-                            </svg>
-                        </span>
-                        <span className="brand__type">Infusion<span className="brand__type--accent">Publishing</span></span>
+                        <img src='/logos/eBook-Logo.svg' />
                     </Link>
 
                     <nav className="main-nav" aria-label="Primary">
