@@ -38,42 +38,7 @@ export const IllustrationHero = () => {
         </div>
         
         <div className="ill-hero-visual reveal-scale" ref={visualRef} aria-hidden="true">
-          <div className="ill-panel ill-panel--sketch">
-            <span className="ill-tag ill-tag--sketch">SKETCH</span>
-            <svg className="sketch-svg" viewBox="0 0 210 290" xmlns="http://www.w3.org/2000/svg">
-              <g fill="none" stroke="#8B8070" strokeWidth="1.4" strokeLinecap="round">
-                <ellipse cx="105" cy="90" rx="55" ry="30" />
-                <path d="M60 100 Q40 130 55 160" />
-                <path d="M150 100 Q170 130 155 160" />
-                <path d="M75 105 Q105 95 135 105" />
-                <path d="M70 200 L80 240 M140 200 L130 240" />
-                <ellipse cx="105" cy="170" rx="38" ry="45" />
-                <path d="M85 75 Q90 65 100 68" />
-                <path d="M125 75 Q120 65 110 68" />
-                <path d="M40 150 Q55 145 65 155" />
-                <path d="M170 150 Q155 145 145 155" />
-              </g>
-            </svg>
-          </div>
-          <div className="ill-arrow"><svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
-          <div className="ill-panel ill-panel--final">
-            <span className="ill-tag ill-tag--final"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/></svg>FINAL</span>
-            <div className="final-art">
-              <div className="final-art__stars">
-                {stars.map(star => <div key={star.id} className="final-art__star" style={{ left: star.left, top: star.top }}></div>)}
-              </div>
-              <div className="final-art__moon"></div>
-              <div className="final-art__mountain2"></div>
-              <div className="final-art__mountain"></div>
-              <div className="final-art__dragon">
-                <div className="final-art__d-wing"></div>
-                <div className="final-art__d-body"></div>
-                <div className="final-art__d-head"></div>
-              </div>
-            </div>
-          </div>
-          <div className="hero-badge hero-badge--tl"><strong>✓ You Approve</strong><small>Every sketch stage</small></div>
-          <div className="hero-badge hero-badge--br"><strong>🎨 Full Colour</strong><small>Print-ready art</small></div>
+          <img src="/images/illustrations-mockup.png" alt="" />
         </div>
       </div>
     </section>

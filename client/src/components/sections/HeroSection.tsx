@@ -44,13 +44,8 @@ export const HeroSection = () => {
 
         <div className="hero__visual reveal-visual" aria-hidden="true" ref={visualRef}>
           <div className="book-stack">
-            <div className="book-stack__spine spine-1"><span>Self-Help</span></div>
-            <div className="book-stack__spine spine-2"><span>Memoir</span></div>
-            <div className="book-stack__spine spine-3"><span>Children's</span></div>
             <div className="book-stack__cover">
-              <div className="book-stack__cover-shine"></div>
-              <span className="book-stack__cover-label">YOUR<br />STORY</span>
-              <span className="book-stack__cover-sub">by You</span>
+              <img src='/images/homepage-mockup.png'/>
             </div>
             <div className="floating-badge floating-badge--top">
               <strong>100%</strong><small>Royalties</small>

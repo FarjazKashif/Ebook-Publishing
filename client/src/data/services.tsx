@@ -33,6 +33,13 @@ export const servicesData: IService[] = [
     kicker: "Book", title: "Marketing", 
     desc: "Promote your book by getting it in front of renowned industry names and reviewers to maximize visibility and increase sales.", 
     featured: false, 
+    href: "/services/book-marketing",
+    icon: <path d="M3 11l18-7-7 18-2.5-7.5L3 11Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round"/> 
+  },
+  { 
+    kicker: "Book", title: "Children's Book Publishing", 
+    desc: "Promote your book by getting it in front of renowned industry names and reviewers to maximize visibility and increase sales.", 
+    featured: false, 
     href: "/services/childrens-book-publishing",
     icon: <path d="M3 11l18-7-7 18-2.5-7.5L3 11Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round"/> 
   },

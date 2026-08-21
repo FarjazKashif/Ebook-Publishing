@@ -216,7 +216,7 @@ h1,h2,h3,h4{font-family:var(--font-display); font-weight:600; letter-spacing:-0.
 =========================================================== */
 .hero{
   position:relative; background:var(--ink); color:var(--cream-text);
-  padding: 90px 0 80px; overflow:hidden;
+  padding: 90px 0 10px; overflow:hidden;
 }
 .hero__bg{position:absolute; inset:0; z-index:0;}
 .hero__glow{

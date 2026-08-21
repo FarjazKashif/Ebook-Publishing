@@ -36,14 +36,6 @@ export const AboutPage = () => {
       <Header />
 
       <main>
-        <nav className="breadcrumb" aria-label="Breadcrumb">
-          <div className="container breadcrumb__inner">
-            <a href="/">Home</a>
-            <span className="breadcrumb__sep" aria-hidden="true">›</span>
-            <span className="breadcrumb__current" aria-current="page">About Us</span>
-          </div>
-        </nav>
-
         <AboutHeroSection />
 
         {/* Our Story Section can be a component, but left inline here for brevity */}
@@ -81,7 +73,7 @@ export const AboutPage = () => {
                 <div className="mss-line mss-line--short"></div><div className="mss-line"></div>
                 <div className="mss-stamp"><span>Ready<br />to<br />Publish</span></div>
               </div>
-              <div className="mss-badge">✅ Published!</div>
+              {/* <div className="mss-badge">✅ Published!</div> */}
             </div>
           </div>
         </section>
@@ -111,7 +103,6 @@ export const AboutPage = () => {
 
         <TeamSection />
         <DifferentiatorsSection />
-        <AwardsSection />
 
         {/* Reusable Testimonials Section (passing props if needed) */}
         <TestimonialsSection data={testimonialsData} />

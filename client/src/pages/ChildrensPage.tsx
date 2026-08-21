@@ -38,12 +38,6 @@ export const ChildrensPage = () => {
       <Header />
 
       <main>
-        <Breadcrumb items={[
-          { label: "Home", url: "/" },
-          { label: "Services", url: "/services" },
-          { label: "Children's Book Publishing" }
-        ]} />
-
         <ChildrensHero />
 
         {/* Trust Bar Inline */}

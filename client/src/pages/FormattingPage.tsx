@@ -38,12 +38,6 @@ export const FormattingPage = () => {
       <Header />
 
       <main>
-        <Breadcrumb items={[
-          { label: "Home", url: "/" },
-          { label: "Services", url: "/services" },
-          { label: "Book Formatting" }
-        ]} />
-
         <FormattingHero />
 
         {/* Trust Bar Inline */}

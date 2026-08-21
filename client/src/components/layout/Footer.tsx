@@ -5,15 +5,9 @@ export const Footer = () => {
     <footer className="site-footer">
       <div className="container footer__grid">
         <div className="footer__brand">
-          <a href="/" className="brand brand--footer">
-            <span className="brand__mark">
-              <svg viewBox="0 0 40 40" width="32" height="32" aria-hidden="true">
-                <path d="M8 6 L8 34 L20 30 L32 34 L32 6 L20 10 Z" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
-                <line x1="20" y1="10" x2="20" y2="30" stroke="currentColor" strokeWidth="1.5" />
-              </svg>
-            </span>
-            <span className="brand__type">Infusion<span className="brand__type--accent">Publishing</span></span>
-          </a>
+          <Link to="/" className="brand" aria-label="Infusion Publishing — Home">
+            <img src='/logos/eBook-Logowhite.svg' />
+          </Link>
           <p>Our team of committed and ambitious editors, designers, and marketers has a proven record of producing successful publications across every genre and goal.</p>
           <div className="footer__social">
             <a href="https://www.facebook.com/infusionpublishing/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">

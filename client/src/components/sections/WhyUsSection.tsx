@@ -34,17 +34,6 @@ export const WhyUsSection = () => {
           ))}
         </div>
       </div>
-
-      <div className="container">
-        <div className="awards reveal" ref={awardsRef}>
-          <div className="awards__item">🏅 <span>eBook Content<br />Writing Excellence</span></div>
-          <div className="awards__item">🏅 <span>Top Children's Book<br />Writing Company</span></div>
-          <div className="awards__item">🏅 <span>Top Editing &<br />Proofreading Service</span></div>
-          <div className="awards__item">🏅 <span>2023 Book Award —<br />Non-Fiction Winner</span></div>
-          <div className="awards__item">🏅 <span>Top Product<br />Marketing Agency</span></div>
-          <div className="awards__item">🏅 <span>Gold Winner —<br />Fiction Category</span></div>
-        </div>
-      </div>
     </section>
   );
 };

@@ -16,13 +16,17 @@ export const ServicesSection = () => {
 
         <div className="service-grid" ref={gridRef}>
           {servicesData.map((service, idx) => (
-            <article key={idx} className={`service-card reveal ${service.featured ? 'service-card--featured' : ''}`}>
-              {service.featured && <div className="service-card__ribbon">Most Popular</div>}
-              <div className="service-card__icon">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none">{service.icon}</svg>
+            <article key={idx} className={`service-card reveal`}> {/* ${service.featured ? 'service-card--featured' : '' */}
+              {/* {service.featured && <div className="service-card__ribbon">Most Popular</div>} */}
+              <div className='card-header'>
+                <div className="service-card__icon">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none">{service.icon}</svg>
+                </div>
+                <div className="card-titles">
+                  <p className="service-card__kicker">{service.kicker}</p>
+                  <h3>{service.title}</h3>
+                </div>
               </div>
-              <p className="service-card__kicker">{service.kicker}</p>
-              <h3>{service.title}</h3>
               <p>{service.desc}</p>
               <Link to={service.href} className="service-card__link">
                 Learn more

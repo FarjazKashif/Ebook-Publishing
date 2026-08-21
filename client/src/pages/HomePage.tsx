@@ -42,8 +42,28 @@ export const HomePage = () => {
         <section className="proof-strip">
           <div className="container">
             <p className="proof-strip__label">Publish & sell your book on the world's leading platforms</p>
-            <div className="proof-strip__logos">
-              <span>Amazon KDP</span><span>IngramSpark</span><span>Barnes & Noble</span><span>Apple Books</span><span>Google Play Books</span><span>Kobo</span>
+
+            <div className="proof-strip__slider-container">
+              <div className="proof-strip__track">
+                {/* Set 1 */}
+                <img src='/logos/amazon-logo.png' />
+                <img src='/logos/applebooks-logo.png' />
+                <img src='/logos/barnes-noble-logo.png' />
+                <img src='/logos/googleplaybooks-logo.png' />
+                <img src='/logos/ingramspark-logo.png' />
+                <img src='/logos/rakutenkobo-logo.png' />
+                <img src='/logos/scribd-logo.png' />
+                <img src='/logos/vearsa-logo.png' />
+
+                <img src='/logos/amazon-logo.png' />
+                <img src='/logos/applebooks-logo.png' />
+                <img src='/logos/barnes-noble-logo.png' />
+                <img src='/logos/googleplaybooks-logo.png' />
+                <img src='/logos/ingramspark-logo.png' />
+                <img src='/logos/rakutenkobo-logo.png' />
+                <img src='/logos/scribd-logo.png' />
+                <img src='/logos/vearsa-logo.png' />
+              </div>
             </div>
           </div>
         </section>

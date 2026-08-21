@@ -128,8 +128,8 @@ export const LeadFormSection = ({ urgencyText, heading, paragraph, points, chann
             <div className="checkbox-grid">
               {["Self Publishing", "Cover Design", "Illustration", "Editing", "Formatting", "Marketing"].map(service => (
                 <label key={service} className={`chip ${selectedServices.includes(service) ? 'chip--checked' : ''}`}>
-                  <input type="checkbox" name="services" value={service} onChange={() => toggleService(service)} />
                   {service}
+                  <input type="checkbox" name="services" id='chkBox' value={service} onChange={() => toggleService(service)} />
                 </label>
               ))}
             </div>

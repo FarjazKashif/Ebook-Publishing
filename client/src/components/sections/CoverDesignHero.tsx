@@ -14,7 +14,7 @@ export const CoverDesignHero = () => {
       <div className="container svc-hero__inner">
         <div className="svc-hero__content" ref={contentRef}>
           <div className="svc-hero__badge reveal">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 2l3.1 6.2 6.9 1-5 4.9 1.2 6.9L12 17.8l-6.2 3.2L7 14.1 2 9.2l6.9-1L12 2z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 2l3.1 6.2 6.9 1-5 4.9 1.2 6.9L12 17.8l-6.2 3.2L7 14.1 2 9.2l6.9-1L12 2z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /></svg>
             Award-Winning Book Cover Design
           </div>
           <h1 className="svc-hero__title reveal">Covers Readers<em>Can't Scroll Past</em></h1>
@@ -30,15 +30,9 @@ export const CoverDesignHero = () => {
             <div className="svc-hero__trust-item"><span><strong>Human designers</strong>, not AI</span></div>
           </div>
         </div>
-        
-        {/* Hero book covers CSS visual */}
+
         <div className="hero-covers reveal-scale" ref={visualRef} aria-hidden="true">
-          <div className="hc hc-1"><div className="hc__spine" style={{background:'linear-gradient(180deg,#8B0000,#2A0000)'}}></div><div className="hc__shine"></div><div className="hc__genre">Thriller</div><div className="hc__title"><strong>The Last Signal</strong><em>J. Harmon</em></div></div>
-          <div className="hc hc-2"><div className="hc__spine" style={{background:'linear-gradient(180deg,#5B00AA,#200050)'}}></div><div className="hc__shine"></div><div className="hc__genre">Fantasy</div><div className="hc__title"><strong>Realm of Echoes</strong><em>A. Voss</em></div></div>
-          <div className="hc hc-3"><div className="hc__spine" style={{background:'linear-gradient(180deg,#A07A20,#3A2800)'}}></div><div className="hc__shine"></div><div className="hc__genre" style={{color:'rgba(255,255,255,0.55)'}}>Business</div><div className="hc-3__diamond">◆</div><div className="hc__title"><strong>The Growth Blueprint</strong><em>M. Torres</em></div></div>
-          <div className="hc hc-4"><div className="hc__spine" style={{background:'linear-gradient(180deg,#B5294A,#4A000F)'}}></div><div className="hc__shine"></div><div className="hc__genre">Romance</div><div className="hc__title"><strong>When We Return</strong><em>S. Elaine</em></div></div>
-          <div className="hc hc-5"><div className="hc__spine" style={{background:'linear-gradient(180deg,#E87B3D,#C45A1A)'}}></div><div className="hc__shine"></div><div className="hc__genre" style={{color:'rgba(255,255,255,0.65)'}}>Children's</div><div className="hc__title"><strong>The Cloud Keeper</strong><em>P. Wren</em></div></div>
-          <div className="hero-covers__award"><strong>🏅 Top Design</strong><small>Industry Award</small></div>
+          <img src="/images/bookcover-design-mockup.png" alt="Custom Book Cover Design" className="cover-real-image" />
         </div>
       </div>
     </section>

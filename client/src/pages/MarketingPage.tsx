@@ -37,12 +37,6 @@ export const MarketingPage = () => {
       <Header />
       
       <main>
-        <Breadcrumb items={[
-          { label: "Home", url: "/" },
-          { label: "Services", url: "/services" },
-          { label: "Book Marketing" }
-        ]} />
-
         <MarketingHero />
         
         {/* Trust Bar Inline */}

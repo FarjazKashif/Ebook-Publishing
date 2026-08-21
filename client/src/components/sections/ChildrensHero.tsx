@@ -27,18 +27,7 @@ export const ChildrensHero = () => {
         {/* Hero storybook CSS visual */}
         <div className="hero-book reveal-scale" ref={visualRef}>
           <div className="storybook">
-            <div className="storybook__cover"></div>
-            <div className="storybook__page-l"><div className="storybook__lines"><div className="storybook__line"></div><div className="storybook__line storybook__line--short"></div><div className="storybook__line"></div><div className="storybook__line storybook__line--short"></div><div className="storybook__line"></div><div className="storybook__line storybook__line--short"></div></div></div>
-            <div className="storybook__spine"></div>
-            <div className="storybook__page-r">
-              <div className="storybook__char">
-                <div className="char-hat"></div>
-                <div className="char-head"><div className="char-eye-l"></div><div className="char-eye-r"></div><div className="char-smile"></div></div>
-                <div className="char-arm-l"></div><div className="char-body"></div><div className="char-arm-r"></div>
-                <div className="char-leg-l"></div><div className="char-leg-r"></div>
-                <div className="char-star">⭐</div>
-              </div>
-            </div>
+            <img src="/images/childrensbookpublishing-mockup-1.png" alt="" />
           </div>
           <div className="hero-badge hero-badge--tl"><strong>🏅 Top Illustrators</strong><small>Award-winning team</small></div>
           <div className="hero-badge hero-badge--br"><strong>📚 3,000+ Books</strong><small>Published worldwide</small></div>

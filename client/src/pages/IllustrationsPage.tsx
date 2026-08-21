@@ -38,12 +38,6 @@ export const IllustrationsPage = () => {
       <Header />
 
       <main>
-        <Breadcrumb items={[
-          { label: "Home", url: "/" },
-          { label: "Services", url: "/services" },
-          { label: "Illustrations" }
-        ]} />
-
         <IllustrationHero />
 
         {/* Trust Bar Inline */}

@@ -36,12 +36,6 @@ export const EditingPage = () => {
       <Header />
 
       <main>
-        <Breadcrumb items={[
-          { label: "Home", url: "/" },
-          { label: "Services", url: "/services" },
-          { label: "Editing & Proofreading" }
-        ]} />
-
         <EditingHero />
 
         {/* Trust Bar Inline */}

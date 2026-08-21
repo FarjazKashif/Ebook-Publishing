@@ -16,7 +16,7 @@ export const TestimonialsSection = ({ data }: TestimonialsSectionProps) => {
           <h2 className="section-title">Hear From Our Clients</h2>
           <div className="testimonials__rating">
             <span className="stars">★★★★★</span>
-            <strong>Excellent</strong> · based on 441 reviews on Google
+            <span><strong>Excellent</strong> · based on on Google reviews</span>
           </div>
         </div>
 

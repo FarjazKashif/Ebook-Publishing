@@ -39,12 +39,6 @@ export const CoverDesignPage = () => {
       <Header />
 
       <main>
-        <Breadcrumb items={[
-          { label: "Home", url: "/" },
-          { label: "Services", url: "/services" },
-          { label: "Book Cover Design" }
-        ]} />
-
         <CoverDesignHero />
 
         {/* Trust Bar Inline */}
