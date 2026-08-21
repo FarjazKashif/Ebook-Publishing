@@ -2,7 +2,6 @@ import { Header } from '../components/layout/Header';
 import { Footer } from '../components/layout/Footer';
 import { ChatFab } from '../components/layout/ChatFab';
 import { BackToTop } from '../components/layout/BackToTop';
-import { Breadcrumb } from '../components/ui/Breadcrumb';
 import { ChildrensHero } from '../components/sections/ChildrensHero';
 import { StyleShowcase } from '../components/sections/StyleShowcase';
 import { ChildrensIncluded } from '../components/sections/ChildrensIncluded';

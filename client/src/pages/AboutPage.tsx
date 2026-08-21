@@ -8,7 +8,6 @@ import { AboutHeroSection } from '../components/sections/AboutHeroSection';
 import { ValuesSection } from '../components/sections/ValuesSection';
 import { TeamSection } from '../components/sections/TeamSection';
 import { DifferentiatorsSection } from '../components/sections/DifferentiatorsSection';
-import { AwardsSection } from '../components/sections/AwardsSection';
 import { TestimonialsSection } from '../components/sections/TestimonialsSection';
 import { OfferBanner } from '../components/sections/OfferBanner';
 import { testimonialsData } from '../data/testimonials'; // Re-using data file for now, or create aboutTestimonials

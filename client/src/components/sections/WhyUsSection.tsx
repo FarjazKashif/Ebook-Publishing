@@ -4,7 +4,6 @@ import { useScrollReveal } from '../../hooks/useScrollReveal';
 export const WhyUsSection = () => {
   const contentRef = useScrollReveal<HTMLDivElement>();
   const statsRef = useScrollReveal<HTMLDivElement>();
-  const awardsRef = useScrollReveal<HTMLDivElement>();
 
   return (
     <section className="why-us" id="about">

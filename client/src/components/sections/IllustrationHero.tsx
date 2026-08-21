@@ -1,18 +1,8 @@
 import { useScrollReveal } from '../../hooks/useScrollReveal';
-import { useMemo } from 'react';
 
 export const IllustrationHero = () => {
   const contentRef = useScrollReveal<HTMLDivElement>();
   const visualRef = useScrollReveal<HTMLDivElement>();
-
-  // Generate random stars once
-  const stars = useMemo(() => {
-    return Array.from({ length: 25 }).map((_, i) => ({
-      id: i,
-      left: `${Math.random() * 100}%`,
-      top: `${Math.random() * 55}%`
-    }));
-  }, []);
 
   return (
     <section className="svc-hero" aria-labelledby="hero-heading">
