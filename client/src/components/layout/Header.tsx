@@ -32,6 +32,7 @@ export const Header = () => {
                           <div className="nav-dropdown__panel">
                             <NavLink to="/services/editing-proofreading">Editing &amp; Proofreading</NavLink>
                             <NavLink to="/services/book-cover-design">Book Cover Design</NavLink>
+                            <NavLink to="/services/book-marketing">Book Marketing</NavLink>
                             <NavLink to="/services/illustrations">Illustrations</NavLink>
                             <NavLink to="/services/book-formatting">Book Formatting</NavLink>
                             <NavLink to="/services/childrens-book-publishing">Children's Book Publishing</NavLink>
