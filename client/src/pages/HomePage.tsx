@@ -1,7 +1,6 @@
 // src/pages/HomePage.tsx
 import { Header } from '../components/layout/Header';
 import { Footer } from '../components/layout/Footer';
-import { ChatFab } from '../components/layout/ChatFab';
 import { BackToTop } from '../components/layout/BackToTop';
 import { HeroSection } from '../components/sections/HeroSection';
 import { ServicesSection } from '../components/sections/ServicesSection';

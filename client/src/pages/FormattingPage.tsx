@@ -1,6 +1,5 @@
 import { Header } from '../components/layout/Header';
 import { Footer } from '../components/layout/Footer';
-import { ChatFab } from '../components/layout/ChatFab';
 import { BackToTop } from '../components/layout/BackToTop';
 import { FormattingHero } from '../components/sections/FormattingHero';
 import { LayoutShowcase } from '../components/sections/LayoutShowcase';
