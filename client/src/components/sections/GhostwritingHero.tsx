@@ -61,6 +61,7 @@ export const GhostwritingHero = () => {
           <div className="hero-badge hero-badge--br"><strong>✍️ Your Voice</strong><small>Captured & refined</small></div>
         </div>
       </div>
+      <div className="hero__scroll-cue" aria-hidden="true"><span></span></div>
     </section>
   );
 };

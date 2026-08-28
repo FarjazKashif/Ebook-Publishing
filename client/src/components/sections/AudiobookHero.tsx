@@ -60,6 +60,7 @@ export const AudiobookHero = () => {
           <div className="hero-badge hero-badge--br"><strong>🎙️ Studio Quality</strong><small>Professionally mastered</small></div>
         </div>
       </div>
+      <div className="hero__scroll-cue" aria-hidden="true"><span></span></div>
     </section>
   );
 };

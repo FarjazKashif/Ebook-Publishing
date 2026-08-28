@@ -38,6 +38,7 @@ export const EditingHero = () => {
           <img src="/images/editingpage-mockup.png" alt="Professional Book Editing" className="edit-real-image" />
         </div>
       </div>
+      <div className="hero__scroll-cue" aria-hidden="true"><span></span></div>
     </section>
   );
 };

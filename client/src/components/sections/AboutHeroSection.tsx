@@ -30,17 +30,10 @@ export const AboutHeroSection = () => {
           </div>
         </div>
         <div className="about-hero__visual reveal-scale" ref={visualRef} aria-hidden="true">
-          {/* SVG Open Book Visual */}
-          <div className="open-book">
-            <div className="open-book__page open-book__page-l"><div className="open-book__lines-l"><div className="open-book__line"></div><div className="open-book__line open-book__line--short"></div><div className="open-book__line"></div><div className="open-book__line"></div><div className="open-book__line open-book__line--short"></div><div className="open-book__line"></div><div className="open-book__line"></div><div className="open-book__line open-book__line--short"></div></div></div>
-            <div className="open-book__spine"></div>
-            <div className="open-book__page open-book__page-r"><div className="open-book__lines"><div className="open-book__line"></div><div className="open-book__line"></div><div className="open-book__line open-book__line--short"></div><div className="open-book__line"></div><div className="open-book__line open-book__line--shorter"></div><div className="open-book__line"></div><div className="open-book__line"></div><div className="open-book__line"></div><div className="open-book__line"></div></div></div>
-            <div className="open-book__base"></div>
-            <div className="open-book__drop open-book__drop--1">✍️</div>
-            <div className="open-book__drop open-book__drop--2">📚</div>
-          </div>
+            <img src="/images/aboutus-mockup.png" alt="" />
         </div>
       </div>
+      <div className="hero__scroll-cue" aria-hidden="true"><span></span></div>
     </section>
   );
 };

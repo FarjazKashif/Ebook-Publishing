@@ -31,6 +31,7 @@ export const IllustrationHero = () => {
           <img src="/images/illustrations-mockup.png" alt="" />
         </div>
       </div>
+      <div className="hero__scroll-cue" aria-hidden="true"><span></span></div>
     </section>
   );
 };

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useScrollPosition } from '../../hooks/useScrollPosition';
+import { useLeadModal } from '../../context/LeadModalContext';
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,7 +9,8 @@ export const Header = () => {
     const isScrolled = useScrollPosition(12);
     const location = useLocation();
     const isServicesActive = location.pathname.startsWith('/services');
-
+    const { openModal } = useLeadModal();
+    
     return (
         <>
             <header className={`site-header ${isScrolled ? 'scrolled' : ''}`} id="siteHeader">
@@ -48,10 +50,10 @@ export const Header = () => {
                             </span>
                             <span className="header__call-text"><small>Call Us Now</small><strong>(813) 537-0226</strong></span>
                         </a>
-                        <a href="#lead-form" className="btn btn--primary btn--sm">
+                        <button onClick={openModal} className="btn btn--primary btn--sm">
                             <span className="btn__label-full">Get Free Quote</span>
                             <span className="btn__label-short">Quote</span>
-                        </a>
+                        </button>
                         <button className={`nav-toggle ${isMenuOpen ? 'is-open' : ''}`} aria-label="Toggle menu" aria-expanded={isMenuOpen} onClick={() => setIsMenuOpen(!isMenuOpen)}>
                             <span></span><span></span><span></span>
                         </button>

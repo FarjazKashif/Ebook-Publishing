@@ -50,6 +50,7 @@ export const MarketingHero = () => {
           <div className="hero-badge hero-badge--br"><strong>🎯 Targeted Reach</strong><small>Readers ready to buy</small></div>
         </div>
       </div>
+      <div className="hero__scroll-cue" aria-hidden="true"><span></span></div>
     </section>
   );
 };

@@ -35,6 +35,7 @@ export const CoverDesignHero = () => {
           <img src="/images/bookcover-design-mockup.png" alt="Custom Book Cover Design" className="cover-real-image" />
         </div>
       </div>
+      <div className="hero__scroll-cue" aria-hidden="true"><span></span></div>
     </section>
   );
 };

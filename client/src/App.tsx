@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { HomePage } from "./pages/HomePage";
 import { AboutPage } from './pages/AboutPage';
 import { EditingPage } from './pages/EditingPage';
@@ -12,13 +12,31 @@ import { ScrollToTop } from './components/ScrollToTop';
 import { GhostwritingPage } from './pages/GhostwritingPage';
 import { useEffect } from 'react';
 import { AudiobookPage } from './pages/AudiobookPage';
+import { LeadModal } from './components/ui/LeadModal';
+import { LeadModalProvider, useLeadModal } from './context/LeadModalContext';
 
-function App() {
+function AppContent() {
+  const { openModal } = useLeadModal();
+  const location = useLocation();
+
+useEffect(() => {
+    const hasSeenPopup = sessionStorage.getItem('hasSeenLeadPopup');
+    
+    if (!hasSeenPopup) {
+      const timer = setTimeout(() => {
+        openModal();
+        sessionStorage.setItem('hasSeenLeadPopup', 'true');
+      }, 2000);
+      
+      return () => clearTimeout(timer);
+    }
+  }, [location.pathname, openModal]); 
+
   useEffect(() => {
     const script = document.createElement('script');
     script.src = '//code.tidio.co/bueagjyuua2mtkxwvxql63lakos3mgw1.js';
     script.async = true;
-    
+
     document.body.appendChild(script);
 
     return () => {
@@ -26,8 +44,8 @@ function App() {
     };
   }, []);
   return (
-    <BrowserRouter>
-    <ScrollToTop /> 
+    <>
+      <ScrollToTop />
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -42,7 +60,18 @@ function App() {
           <Route path="/services/audiobook" element={<AudiobookPage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+      <LeadModal />
+    </>
+  );
+}
+
+function App() {
+  return (
+    <LeadModalProvider>
+      <BrowserRouter>
+        <AppContent />
+      </BrowserRouter>
+    </LeadModalProvider>
   );
 }
 

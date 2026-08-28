@@ -32,6 +32,7 @@ export const FormattingHero = () => {
           <img src="/images/bookformatting-mockup.png" alt="Professional Book Formatting" className="formatting-real-image" />
         </div>
       </div>
+      <div className="hero__scroll-cue" aria-hidden="true"><span></span></div>
     </section>
   );
 };

@@ -33,6 +33,7 @@ export const ChildrensHero = () => {
           <div className="hero-badge hero-badge--br"><strong>📚 3,000+ Books</strong><small>Published worldwide</small></div>
         </div>
       </div>
+      <div className="hero__scroll-cue" aria-hidden="true"><span></span></div>
     </section>
   );
 };
