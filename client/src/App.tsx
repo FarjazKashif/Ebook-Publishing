@@ -20,16 +20,16 @@ function AppContent() {
   const location = useLocation();
 
 useEffect(() => {
-    const hasSeenPopup = sessionStorage.getItem('hasSeenLeadPopup');
+    // const hasSeenPopup = sessionStorage.getItem('hasSeenLeadPopup');
     
-    if (!hasSeenPopup) {
+    // if (!hasSeenPopup) {
       const timer = setTimeout(() => {
         openModal();
         sessionStorage.setItem('hasSeenLeadPopup', 'true');
       }, 2000);
       
       return () => clearTimeout(timer);
-    }
+    // }
   }, [location.pathname, openModal]); 
 
   useEffect(() => {
