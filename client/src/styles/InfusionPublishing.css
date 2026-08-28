@@ -2232,3 +2232,63 @@ h1,h2,h3,h4{font-family:var(--font-display); font-weight:600; letter-spacing:-0.
 @media(max-width:900px){.main-nav{display:none;}.header__call-text,.header__call-icon{display:none;}.header__actions{gap:10px;}.header__actions .btn--sm{padding:9px 14px;font-size:0.78rem;}.nav-toggle{display:flex;}.svc-hero__inner{grid-template-columns:1fr;text-align:center;}.svc-hero__ctas,.svc-hero__trust{justify-content:center;}.ill-hero-visual{height:300px;margin-top:20px;gap:12px;}.ill-panel{width:150px;}.ill-panel--sketch{height:210px;}.ill-panel--final{height:240px;}.ill-arrow{margin-bottom:90px;}.ill-arrow svg{width:24px;height:24px;}.trust-bar__inner{justify-content:center;}.trust-bar__divider{display:none;}.process__rail{grid-template-columns:repeat(2,1fr);}.proc-step{border-right:none;border-bottom:1px solid var(--line-dark);}.proc-step__connector{display:none;}.mid-form__inner{grid-template-columns:1fr;gap:48px;}.testimonial-track{grid-template-columns:1fr 1fr;}.faq__grid{grid-template-columns:1fr;}.final-cta__actions{flex-direction:column;align-items:center;}.genre-grid{grid-template-columns:repeat(3,1fr);}}
 @media(max-width:760px){.topbar__track{font-size:0.76rem;}.header__inner{height:72px;}.svc-hero{padding:60px 0 0;}.type-grid{grid-template-columns:1fr 1fr;}.included__grid{grid-template-columns:1fr;}.sp-grid{grid-template-columns:1fr;}.pricing__grid,.testimonial-track{grid-template-columns:1fr;}.lead-form__row{grid-template-columns:1fr;}.lead-form{padding:28px 22px;}.footer__grid{grid-template-columns:1fr 1fr;gap:36px;}.footer__brand{grid-column:1/-1;}.footer__bottom{flex-direction:column;gap:10px;text-align:center;}.chat-fab{bottom:18px;right:18px;}.back-to-top{bottom:18px;left:18px;}.breadcrumb{display:none;}.process__rail{grid-template-columns:1fr;}.genre-grid{grid-template-columns:repeat(2,1fr);}.checkbox-grid{grid-template-columns:1fr;}}
 @media(max-width:420px){.btn__label-full{display:none;}.btn__label-short{display:inline;}.header__actions .btn--sm{padding:9px 14px;}.type-grid{grid-template-columns:1fr 1fr;}.included__grid{grid-template-columns:1fr;}.ill-hero-visual{gap:8px;}.ill-panel{width:110px;}.ill-panel--sketch{height:160px;}.ill-panel--final{height:190px;}}
+
+/* ============================================================
+   GHOSTWRITING HERO — IMAGE VISIBLE ON MOBILE FIX
+============================================================ */
+
+/* Base styles for the image container */
+.gw-hero-visual {
+  width: 100% !important;
+  max-width: 400px; /* Max width on desktop */
+  height: auto !important;
+  min-height: auto !important;
+  margin: 0 auto !important; /* Center the container */
+  padding: 20px 0 !important;
+  transform: none !important; /* Clear any old scale transforms */
+  overflow: visible !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Make the image fully responsive and force it to display */
+.ghostwriting-real-image {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  border-radius: var(--r-lg) !important;
+  box-shadow: var(--shadow-lg) !important;
+  object-fit: contain !important; /* Ensures the whole image shows without cropping */
+}
+
+/* Hide old CSS art elements just in case they are still in the DOM */
+.gw-panel--manuscript,
+.gw-arrow,
+.gw-tag,
+.gw-mic,
+.gw-bubble,
+.gw-waveform,
+.gw-manuscript-header,
+.gw-manuscript-para,
+.gw-manuscript-line,
+.gw-manuscript-drop {
+  display: none !important;
+}
+
+/* --- Mobile Adjustments --- */
+@media (max-width: 900px) {
+  .gw-hero-visual {
+    max-width: 340px; /* Slightly smaller on tablets */
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .gw-hero-visual {
+    max-width: 100% !important; /* Take up full width on mobile */
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+  }
+}

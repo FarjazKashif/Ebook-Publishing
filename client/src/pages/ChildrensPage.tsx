@@ -99,7 +99,6 @@ export const ChildrensPage = () => {
       </main>
 
       <Footer />
-      <ChatFab />
       <BackToTop />
     </>
   );

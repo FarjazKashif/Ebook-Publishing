@@ -8,20 +8,38 @@ import { FormattingPage } from './pages/FormattingPage';
 import { IllustrationsPage } from './pages/IllustrationsPage';
 import "./styles/infusion-publishing-cleaned.css";
 import { MarketingPage } from './pages/MarketingPage';
+import { ScrollToTop } from './components/ScrollToTop';
+import { GhostwritingPage } from './pages/GhostwritingPage';
+import { useEffect } from 'react';
+import { AudiobookPage } from './pages/AudiobookPage';
 
 function App() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = '//code.tidio.co/bueagjyuua2mtkxwvxql63lakos3mgw1.js';
+    script.async = true;
+    
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <BrowserRouter>
+    <ScrollToTop /> 
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/services/ghostwriting" element={<GhostwritingPage />} />
           <Route path="/services/editing-proofreading" element={<EditingPage />} />
           <Route path="/services/book-cover-design" element={<CoverDesignPage />} />
           <Route path="/services/childrens-book-publishing" element={<ChildrensPage />} />
           <Route path="/services/book-formatting" element={<FormattingPage />} />
           <Route path="/services/illustrations" element={<IllustrationsPage />} />
           <Route path="/services/book-marketing" element={<MarketingPage />} />
+          <Route path="/services/audiobook" element={<AudiobookPage />} />
         </Routes>
       </div>
     </BrowserRouter>

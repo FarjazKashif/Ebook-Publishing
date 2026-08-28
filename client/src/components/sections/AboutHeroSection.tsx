@@ -16,7 +16,7 @@ export const AboutHeroSection = () => {
           <p className="eyebrow eyebrow--light reveal"><span className="eyebrow__dot"></span> Our Story</p>
           <h1 className="about-hero__title reveal">We Help Authors Turn <em>Manuscripts</em> Into Published Books</h1>
           <p className="about-hero__lead reveal">
-            Infusion Publishing was born from a simple belief: <strong>every author deserves a professional publishing experience</strong>, regardless of budget or connections. Since our founding, we've helped over 3,000 writers share their stories with the world.
+            The eBook Publishing was born from a simple belief: <strong>every author deserves a professional publishing experience</strong>, regardless of budget or connections. Since our founding, we've helped over 3,000 writers share their stories with the world.
           </p>
           <div className="about-hero__ctas reveal">
             <a href="#our-story" className="btn btn--accent btn--lg">Read Our Story</a>

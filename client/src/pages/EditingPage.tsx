@@ -144,7 +144,6 @@ export const EditingPage = () => {
       </main>
 
       <Footer />
-      <ChatFab />
       <BackToTop />
     </>
   );

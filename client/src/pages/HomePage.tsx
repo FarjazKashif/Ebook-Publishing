@@ -104,7 +104,6 @@ export const HomePage = () => {
       </main>
 
       <Footer />
-      <ChatFab />
       <BackToTop />
     </>
   );

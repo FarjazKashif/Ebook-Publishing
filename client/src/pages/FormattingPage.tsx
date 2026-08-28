@@ -99,7 +99,6 @@ export const FormattingPage = () => {
       </main>
 
       <Footer />
-      <ChatFab />
       <BackToTop />
     </>
   );

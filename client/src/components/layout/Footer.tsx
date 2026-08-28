@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="site-footer">
       <div className="container footer__grid">
         <div className="footer__brand">
-          <Link to="/" className="brand" aria-label="Infusion Publishing — Home">
+          <Link to="/" className="brand" aria-label="The eBook Publishing — Home">
             <img src='/logos/eBook-Logowhite.svg' />
           </Link>
           <p>Our team of committed and ambitious editors, designers, and marketers has a proven record of producing successful publications across every genre and goal.</p>
@@ -50,7 +50,7 @@ export const Footer = () => {
       </div>
 
       <div className="container footer__bottom">
-        <p>© 2026 Infusion Publishing. All Rights Reserved.</p>
+        <p>© 2026 The eBook Publishing. All Rights Reserved.</p>
         <div className="footer__legal">
           <a href="#">Privacy Policy</a><span>·</span><a href="#">Terms & Conditions</a>
         </div>

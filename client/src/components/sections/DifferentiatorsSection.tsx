@@ -8,7 +8,7 @@ export const DifferentiatorsSection = () => {
       <div className="container">
         <div className="section-head">
           <p className="eyebrow">What Sets Us Apart</p>
-          <h2 className="section-title">Why Authors Choose Infusion Publishing</h2>
+          <h2 className="section-title">Why Authors Choose The eBook Publishing</h2>
           <p className="section-sub">There are dozens of self-publishing companies. Here's why over 3,000 authors chose — and trusted — us.</p>
         </div>
 

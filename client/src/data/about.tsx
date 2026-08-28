@@ -20,7 +20,7 @@ export const valuesData: IValue[] = [
 ];
 
 export const teamData: ITeamMember[] = [
-  { initial: "S", bgColor: "linear-gradient(135deg,#7A2331,#4F1521)", name: "Sarah Mitchell", role: "Founder & Editorial Director", bio: "Former Big-5 acquisitions editor with 15 years in the industry. Sarah started Infusion Publishing after watching too many talented authors get turned away." },
+  { initial: "S", bgColor: "linear-gradient(135deg,#7A2331,#4F1521)", name: "Sarah Mitchell", role: "Founder & Editorial Director", bio: "Former Big-5 acquisitions editor with 15 years in the industry. Sarah started The eBook Publishing after watching too many talented authors get turned away." },
   { initial: "J", bgColor: "linear-gradient(135deg,#1A3050,#122038)", name: "James Okonkwo", role: "Head of Cover Design", bio: "Award-winning book cover artist whose work has appeared on the shelves of Barnes & Noble, Target and independent bookshops across three continents." },
   { initial: "L", bgColor: "linear-gradient(135deg,#3C6050,#254030)", name: "Lisa Chen", role: "Senior Copy Editor", bio: "Published author and MFA graduate with expertise in fiction, memoir, and business writing. Lisa brings both a writer's empathy and an editor's precision." },
   { initial: "M", bgColor: "linear-gradient(135deg,#4A3860,#2C2040)", name: "Marcus Webb", role: "Book Marketing Lead", bio: "Digital marketing strategist who has launched over 400 titles on Amazon and beyond, with a track record of bestseller campaigns across fiction and non-fiction." }
@@ -42,7 +42,7 @@ export const differentiatorsData: IDifferentiator[] = [
       },
       { 
         icon: (<path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m12-9l2 9" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>), 
-        title: "Infusion Publishing", 
+        title: "The eBook Publishing", 
         subtitle: "Service fee only (upfront)" 
       }
     ],

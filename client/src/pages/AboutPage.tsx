@@ -44,7 +44,7 @@ export const AboutPage = () => {
               <p className="eyebrow reveal"><span className="eyebrow__dot"></span> How It All Began</p>
               <h2 className="our-story__title reveal">A Team of Writers Who Knew the Struggle</h2>
               <div className="our-story__body reveal">
-                <p>Infusion Publishing started in a small office with a big conviction: the traditional publishing world was leaving <strong>too many talented authors behind</strong>.</p>
+                <p>The eBook Publishing started in a small office with a big conviction: the traditional publishing world was leaving <strong>too many talented authors behind</strong>.</p>
                 <div className="our-story__pull">
                   <p>"We wanted to build the publishing company we wished had existed when we were authors ourselves."</p>
                 </div>
@@ -111,7 +111,7 @@ export const AboutPage = () => {
           eyebrow="Ready to Publish?"
           title="Get"
           highlight="30% OFF Your First Publishing Package"
-          text="Join over 3,000 authors who trusted Infusion Publishing to bring their book to life."
+          text="Join over 3,000 authors who trusted The eBook Publishing to bring their book to life."
           ctaText="Claim My Discount"
           note="No obligation · Free 15-min consult"
         />
@@ -133,7 +133,6 @@ export const AboutPage = () => {
       </main >
 
       <Footer />
-      <ChatFab />
       <BackToTop />
     </>
   );

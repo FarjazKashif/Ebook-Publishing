@@ -100,7 +100,6 @@ export const IllustrationsPage = () => {
       </main>
 
       <Footer />
-      <ChatFab />
       <BackToTop />
     </>
   );

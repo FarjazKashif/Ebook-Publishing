@@ -110,7 +110,6 @@ export const MarketingPage = () => {
       </main>
 
       <Footer />
-      <ChatFab />
       <BackToTop />
     </>
   );

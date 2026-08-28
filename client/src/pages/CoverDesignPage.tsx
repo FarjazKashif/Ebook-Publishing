@@ -101,7 +101,6 @@ export const CoverDesignPage = () => {
       </main>
 
       <Footer />
-      <ChatFab />
       <BackToTop />
     </>
   );
