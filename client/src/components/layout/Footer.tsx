@@ -41,7 +41,7 @@ export const Footer = () => {
         <div className="footer__col footer__col--contact">
           <h4>Get In Touch</h4>
           <a href="tel:18135370226" className="footer__contact-line">📞 (813) 537-0226</a>
-          <a href="mailto:info@infusionpublishing.com" className="footer__contact-line">✉️ info@infusionpublishing.com</a>
+          <a href="mailto:info@theebookpublishing.com" className="footer__contact-line">✉️ info@theebookpublishing.com</a>
           <div className="footer__chat-row">
             <a href="https://wa.me/18135370226" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WA</a>
             <a href="https://m.me/infusionpublishing" target="_blank" rel="noopener noreferrer" aria-label="Messenger">FB</a>

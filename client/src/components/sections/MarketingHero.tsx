@@ -29,25 +29,7 @@ export const MarketingHero = () => {
         
         {/* Before/After Search Visual */}
         <div className="mk-hero-visual reveal-scale" ref={visualRef} aria-hidden="true">
-          <div className="mk-panel mk-panel--before">
-            <span className="mk-tag mk-tag--before">BEFORE</span>
-            <div className="mk-search"><span>🔍 search: cozy mystery novels</span></div>
-            <div className="mk-result"><div className="mk-result__thumb"></div><div className="mk-result__lines"><div className="mk-result__line" style={{width:'85%'}}></div><div className="mk-result__line" style={{width:'60%'}}></div></div></div>
-            <div className="mk-result"><div className="mk-result__thumb"></div><div className="mk-result__lines"><div className="mk-result__line" style={{width:'80%'}}></div><div className="mk-result__line" style={{width:'55%'}}></div></div></div>
-            <div className="mk-result mk-result--yours"><div className="mk-result__thumb"></div><div className="mk-result__lines"><div className="mk-result__line" style={{width:'70%'}}></div><div className="mk-result__line" style={{width:'45%'}}></div><div className="mk-yours-label">↑ your book, page 4</div></div></div>
-          </div>
-          <div className="mk-arrow"><svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
-          <div className="mk-panel mk-panel--after">
-            <span className="mk-tag mk-tag--after"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/></svg>AFTER</span>
-            <div className="mk-badge-graphic"><strong>#1</strong><span>BESTSELLER</span></div>
-            <div className="mk-chart">
-              <div className="mk-chart-bar" style={{height:'20%'}}></div><div className="mk-chart-bar" style={{height:'35%'}}></div><div className="mk-chart-bar" style={{height:'30%'}}></div><div className="mk-chart-bar" style={{height:'55%'}}></div><div className="mk-chart-bar" style={{height:'70%'}}></div><div className="mk-chart-bar" style={{height:'100%'}}></div>
-            </div>
-            <div className="mk-after-title">Sales Rank Rising</div>
-            <div className="mk-after-sub">Amazon · Cozy Mystery</div>
-          </div>
-          <div className="hero-badge hero-badge--tl"><strong>📊 Real Data</strong><small>Weekly reporting</small></div>
-          <div className="hero-badge hero-badge--br"><strong>🎯 Targeted Reach</strong><small>Readers ready to buy</small></div>
+          <img src="/images/bookmarketing-mockup.png" alt="" />
         </div>
       </div>
       <div className="hero__scroll-cue" aria-hidden="true"><span></span></div>

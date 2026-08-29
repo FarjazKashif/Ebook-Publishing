@@ -3127,9 +3127,10 @@ h4 {
   position: relative;
   height: 460px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
   gap: 22px;
+  animation: floatCover 6s ease-in-out infinite;
 }
 
 .mk-panel {
@@ -5210,7 +5211,7 @@ h4 {
   position: relative;
   height: 460px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
   gap: 0;
   overflow: visible;
