@@ -23,12 +23,8 @@ jobs:
           npm install
           npm run build
 
-      - name: Deploy to Hosting via FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.3.5
-        with:
-          server: theebookpublishing.com
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./client/dist/
-          server-dir: /public_html/
-          dangerous-clean-slate: false
+      - name: Upload via FTP
+        run: |
+          apt-get update && apt-get install -y lftp
+          lftp -e "open ftp://${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}@theebookpublishing.com; mirror -R ./client/dist/ /public_html/; quit"
+          
